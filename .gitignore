@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+
+# Generated OCR artifacts
+ocr_output/
+ocr_output_cpu/
+ocr_pages/
+ocr_output.txt
+test_page.png
+*.log
+
+# Editors / OS
+.DS_Store
+.idea/
+.vscode/
